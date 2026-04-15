@@ -1,0 +1,3 @@
+Read TASK.md in the current directory and complete the SWE-bench Lite task.
+Use only built-in Claude Code tools. Work in the repo/ subdirectory.
+Keep a careful log in your final response of what you changed and how tests went.
