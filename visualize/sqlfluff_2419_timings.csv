@@ -1,0 +1,3 @@
+run,read_ms,bash_ms,edit_ms,write_ms,total_tool_ms,api_ms,total_ms,input_tokens,output_tokens,mcp
+runs_clean/sqlfluff__sqlfluff-2419,12,7825,0,22,7859,210642,385547,650,13449,0
+runs_ogmem/sqlfluff__sqlfluff-2419,66,7825,0,186,8077,185554,905827,338,8342,1
