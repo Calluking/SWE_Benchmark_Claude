@@ -18,7 +18,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SWE_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 REPO_ROOT="$(cd "${SWE_ROOT}/.." && pwd)"
-DATASET_ROOT="${DATASET_ROOT:-${REPO_ROOT}/SWE-bench/data/SWE-bench_Lite}"
+DATASET_ROOT="${DATASET_ROOT:-${SWE_ROOT}/data/SWE-bench_Lite}"
 WORK_ROOT="${WORK_ROOT:-${SWE_ROOT}/runs}"
 SPLIT="${SWE_LITE_SPLIT:-dev}"
 INDEX="${SWE_LITE_INDEX:-1}"

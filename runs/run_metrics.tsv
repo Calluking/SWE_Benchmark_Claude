@@ -1,4 +1,0 @@
-ts_utc	stream_log	input_tokens	output_tokens	base_commit	exit_code	instance_id	lite_index	output_format	repo	split
-2026-04-15T04:07:15Z	/home/luzh22/jiuwenclaw/SWE_clean/runs/sqlfluff__sqlfluff-2419/logs/claude_stream.jsonl	0	0	f1dba0e1dd764ae72d67c3d5e1471cf14d3db030	1	sqlfluff__sqlfluff-2419	1	stream-json	sqlfluff/sqlfluff	dev
-2026-04-15T04:14:28Z	/home/luzh22/jiuwenclaw/SWE_clean/runs/sqlfluff__sqlfluff-2419/logs/claude_stream.jsonl	0	0	f1dba0e1dd764ae72d67c3d5e1471cf14d3db030	1	sqlfluff__sqlfluff-2419	1	stream-json	sqlfluff/sqlfluff	dev
-2026-04-15T04:22:21Z	/home/luzh22/jiuwenclaw/SWE_clean/runs/sqlfluff__sqlfluff-2419/logs/claude_stream.jsonl	3600248	13449	f1dba0e1dd764ae72d67c3d5e1471cf14d3db030	0	sqlfluff__sqlfluff-2419	1	stream-json	sqlfluff/sqlfluff	dev
