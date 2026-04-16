@@ -68,7 +68,7 @@ The most noticeable differences are:
 
 - higher API time
 - higher total runtime
-- slightly lower `Bash` usage
-- slightly lower output tokens
+- slightly higher `Bash` usage
+- slightly higher output tokens
 
 If you want to compare the files at a broader level, the clean CSV also includes `test` runs, so that comparison is not apples-to-apples unless you filter to `dev` only.
