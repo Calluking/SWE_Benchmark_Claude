@@ -34,41 +34,41 @@ The table below uses the 22 tasks shared by both CSVs.
 
 For each metric, I now compute:
 
-1. the percentage difference for each task: `(og-memory - clean) / clean * 100`
-2. the average of those 22 per-task percentages
+1. sum the clean values across the 22 shared tasks
+2. sum the `og-memory` values across the same 22 tasks
+3. compute `(og-memory total - clean total) / clean total * 100`
 
-So this is an average of task-level percentage changes, not the percentage change
-of the overall averages.
+So this table shows the net percentage change across the whole shared set.
 
-| Metric | Avg task-wise % change |
+| Metric | Overall % change |
 | --- | ---: |
-| `api_ms` | +32.2% |
-| `total_ms` | +230.1% |
-| `input_tokens` | +4.0% |
-| `output_tokens` | +1.9% |
-| `total_cost_usd` | +11.8% |
-| `num_turns` | +4.1% |
-| `tool_calls_total` | +4.0% |
-| `tool_Bash` | +2.7% |
-| `tool_Read` | +6.0% |
-| `tool_Edit` | +19.8% |
+| `api_ms` | +22.9% |
+| `total_ms` | +213.4% |
+| `input_tokens` | +1.6% |
+| `output_tokens` | -1.9% |
+| `total_cost_usd` | +3.7% |
+| `num_turns` | +1.6% |
+| `tool_calls_total` | +1.6% |
+| `tool_Bash` | -2.5% |
+| `tool_Read` | +1.1% |
+| `tool_Edit` | +9.1% |
 
 ## Notes
 
-- `og-memory` is still slower on average for `api_ms`, and the task-wise mean is `+32.2%`.
+- `og-memory` is still slower overall for `api_ms`, by `+22.9%`.
 - `total_ms` is much higher because the one failed `og-memory` run spent a long time before the rate limit hit.
-- Tool usage is mostly similar, with `Bash` only slightly lower on average.
-- Output tokens are a bit lower, but the difference is small.
-- Sparse tool columns like `tool_Write`, `tool_Glob`, and `tool_TodoWrite` are omitted from the percentage table because some shared tasks have a clean baseline of zero, which makes a per-task percentage undefined.
+- Tool usage is mostly similar, with `Bash` slightly lower overall.
+- Output tokens are slightly lower overall.
+- Sparse tool columns like `tool_Write`, `tool_Glob`, and `tool_TodoWrite` are omitted because the shared set contains zero baselines for some of those metrics, which makes extra percentage reporting less useful.
 
 ## Short conclusion
 
-For these 22 shared `dev` tasks, the `og-memory` CSV does not show a clear efficiency win.
-The most noticeable differences are:
+For these 22 shared `dev` tasks, `og-memory` shows a mixed result:
 
 - higher API time
-- higher total runtime
-- slightly higher `Bash` usage
-- slightly higher output tokens
+- much higher total runtime
+- slightly lower `Bash` usage
+- slightly lower output tokens
+- lower total cost overall
 
 If you want to compare the files at a broader level, the clean CSV also includes `test` runs, so that comparison is not apples-to-apples unless you filter to `dev` only.
