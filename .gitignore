@@ -5,3 +5,8 @@ data/
 runs_ogmem/*
 visualize/ten_task_charts/*
 runs*
+.venv
+.chroma_data
+.claude
+.mcp.json
+SETUP_OG_MEMORY_MCP.md
