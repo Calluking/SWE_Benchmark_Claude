@@ -39,6 +39,9 @@ SWE_LITE_INDEX=1 ./scripts/run_swe_lite_one_claude.sh
 If you want to split a range of SWE-Lite indices across multiple workers, use
 the parallel wrapper script:
 
+By default, the parallel wrapper uses the `test` split. Set
+`SWE_LITE_SPLIT=dev` explicitly if you want the smaller dev set.
+
 ```bash
 SWE_LITE_START=12 SWE_LITE_END=21 SWE_LITE_WORKERS=2 SWE_LITE_WORKER_ID=1 \
   ./scripts/run_swe_lite_range_parallel.sh
