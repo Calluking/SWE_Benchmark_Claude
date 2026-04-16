@@ -3,3 +3,4 @@ runs_clean/*
 oG-Memory/*
 data/
 runs_ogmem/*
+visualize/ten_task_charts/*
