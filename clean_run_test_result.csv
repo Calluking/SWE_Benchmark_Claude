@@ -68,5 +68,5 @@ runs_clean_test,django__django-13933,django/django,test,65,claude-haiku-4-5-2025
 runs_clean_test,django__django-13964,django/django,test,66,claude-haiku-4-5-20251001,0,328311,351325,626,23284,0.77862925,78,77,46,14,0,0,17,0,0,0
 runs_clean_test,django__django-14016,django/django,test,67,claude-haiku-4-5-20251001,0,285521,307847,450,23371,0.46234385000000006,56,55,42,4,0,0,9,0,0,0
 runs_clean_test,django__django-14017,django/django,test,68,claude-haiku-4-5-20251001,0,440614,460637,682,27053,0.7636837499999998,85,84,49,12,0,0,23,0,0,0
-runs_clean_test,django__django-14155,django/django,test,69,claude-haiku-4-5-20251001,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+runs_clean_test,django__django-14155,django/django,test,69,claude-haiku-4-5-20251001,1,145928,163212,34,8814,0.902197,24,23,17,0,0,0,5,0,0,0
 runs_clean_test,django__django-14238,django/django,test,70,claude-haiku-4-5-20251001,0,244651,256710,426,19494,0.41304405000000005,53,52,40,3,0,0,9,0,0,0
