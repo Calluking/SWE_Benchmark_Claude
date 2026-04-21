@@ -115,7 +115,8 @@ META_JSON="${RUN_LOG_DIR}/run_meta.json"
 
 cat >"${PROMPT_FILE}" <<EOF
 Read ${WORK_DIR}/TASK.md and complete the SWE-bench Lite task.
-Use only built-in Claude Code tools. Work in the ${WORK_DIR}/repo/ subdirectory.
+We have OG Memory MCP in this claude. Please use it as it should to help you solve.
+Work in the ${WORK_DIR}/repo/ subdirectory.
 Keep a careful log in your final response of what you changed and how tests went.
 EOF
 
