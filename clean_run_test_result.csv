@@ -70,3 +70,10 @@ runs_clean_test,django__django-14016,django/django,test,67,claude-haiku-4-5-2025
 runs_clean_test,django__django-14017,django/django,test,68,claude-haiku-4-5-20251001,0,440614,460637,682,27053,0.7636837499999998,85,84,49,12,0,0,23,0,0,0
 runs_clean_test,django__django-14155,django/django,test,69,claude-haiku-4-5-20251001,1,145928,163212,34,8814,0.902197,24,23,17,0,0,0,5,0,0,0
 runs_clean_test,django__django-14238,django/django,test,70,claude-haiku-4-5-20251001,0,244651,256710,426,19494,0.41304405000000005,53,52,40,3,0,0,9,0,0,0
+runs_clean_test,django__django-14382,django/django,test,71,claude-haiku-4-5-20251001,0,210520,4229,6,36,1.3416055,1,42,35,2,0,0,5,0,0,0
+runs_clean_test,django__django-14411,django/django,test,72,claude-haiku-4-5-20251001,0,161027,181220,32,8098,0.8364084999999999,27,26,7,3,0,9,7,0,0,0
+runs_clean_test,django__django-14534,django/django,test,73,claude-haiku-4-5-20251001,0,203803,228940,40,10218,1.2088345,35,30,24,3,0,3,4,0,0,0
+runs_clean_test,django__django-14580,django/django,test,74,claude-haiku-4-5-20251001,0,238417,268266,54,13794,1.8419705000000002,44,35,28,3,1,0,8,3,0,0
+runs_clean_test,django__django-14667,django/django,test,76,claude-haiku-4-5-20251001,0,396149,424219,48,26827,2.08473975,38,38,19,4,0,3,7,3,0,0
+runs_clean_test,django__django-14730,django/django,test,78,claude-haiku-4-5-20251001,0,288324,326733,58,12940,1.8294827500000002,48,48,27,2,0,6,7,4,0,0
+runs_clean_test,django__django-14787,django/django,test,80,claude-haiku-4-5-20251001,0,245108,260536,32,8342,1.0651142499999997,31,31,15,2,0,3,6,3,0,0
